@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Course Notifications</title>
+</head>
+<body>
+
+<h1>Subcribe to be notified of seat availability</h1>
+<form name ="Add" action="Demo" method="POST">
+<fieldset >
+<legend>Register:</legend>
+Name:   &emsp;<input type="text" name="name"><br>
+Email:  &emsp;<input type="text" name="email"><br>
+Phone:  &emsp;<input type="text" name="phone"><br>
+SLN:&emsp;&emsp;<input type="text" name="sln"><br>
+<!-- Need to check database to see if Username & password Exist, if not different behavior --->
+<input type="submit" name="Register" value="Register">
+
+</fieldset>
+</form>
+
+<form name ="Remove" action="Demo" method="POST">
+<fieldset>
+    <legend>Remove yourself from the list:</legend>
+    Name:&emsp;<input type="text" name="name"><br>
+    Class: &emsp;<input type="text" name="class"><br>
+    <input type=submit name="Remove"  value="Remove">
+</form>
+</fieldset>
+
+<form name ="Update" action="Demo" method="POST">
+    <fieldset>
+        <legend>Update your contact: </legend>
+        Name: &emsp;<input type="text" name="name"><br>
+        Email: &emsp;<input type="text" name="email"><br>
+        Phone: &emsp;<input type="text" name="phone"><br>
+                        <!-- Need to check database to see if Username & password Exist, if not different behavior --->
+        <input type=submit name="Update" value="Update">
+    </fieldset>
+</form>
+
+
+</body>
+</html>
